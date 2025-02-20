@@ -1,0 +1,33 @@
+# Ignore environment variables and secret files
+.env
+config.json
+auth/.env
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temp files
+*.log
+logs/
+*.out
+
+# Ignore virtual environment
+venv/
+env/
+*.venv
+*.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency folders
+node_modules/
+dist/
+build/
+
+# Ignore Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
